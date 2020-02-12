@@ -1,0 +1,56 @@
+# --------------------
+# Development
+# --------------------
+.env
+/node_modules
+/public/dist
+/var
+/vendor
+
+# --------------------
+# Archives
+# --------------------
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# --------------------
+# OS files
+# --------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+
+# --------------------
+# Editors
+# --------------------
+*.vi
+.idea
+_ide_helper.php
+.buildpath
+.project
+.settings
+*.sass-cache
+*.sublime-project
+*.sublime-workspace
+
+# --------------------
+# Misc
+# --------------------
+*~
+*.diff
+*.err
+*.log
+*.swp
+*.tmp

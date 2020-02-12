@@ -1,0 +1,33 @@
+html, body {
+    font-family: 'Open Sans', serif;
+}
+
+.container {
+    max-width: 1170px;
+}
+
+.hero-body .title {
+    font-family: Poppins, sans serif;
+    font-weight: 300;
+}
+
+.hero-body .title strong {
+    font-weight: bold;
+}
+
+.hero-body .subtitle {
+    padding-top: 2rem;
+}
+
+footer .container {
+    padding: 30px 0;
+    border-top: 1px solid #cccccc;
+}
+
+footer span {
+    white-space: nowrap;
+}
+
+section.home {
+    padding: 3rem 1.5rem;
+}
